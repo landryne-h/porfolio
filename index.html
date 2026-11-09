@@ -28,6 +28,7 @@
   h1,h2,h3,.disp{font-family:'Space Grotesk',sans-serif;}
   .mono{font-family:'JetBrains Mono',monospace;}
   a{color:inherit;}
+  svg.icon{stroke:currentColor; fill:none; stroke-width:1.8; stroke-linecap:round; stroke-linejoin:round;}
 
   @media (prefers-reduced-motion: reduce){
     *{animation-duration:.001ms !important; animation-iteration-count:1 !important; transition-duration:.001ms !important;}
@@ -136,6 +137,9 @@
   .project-card{background:var(--white); border:1px solid var(--line); border-radius:8px; padding:26px; display:flex; flex-direction:column; transition:transform .25s ease, box-shadow .25s ease;}
   .project-card:hover{transform:translateY(-4px); box-shadow:0 14px 26px rgba(20,33,61,0.08);}
   .project-tag{align-self:flex-start; font-size:11px; font-weight:700; color:var(--teal); background:rgba(47,110,93,0.1); padding:4px 10px; border-radius:20px; margin-bottom:14px; text-transform:uppercase; letter-spacing:0.04em;}
+  .project-tag.ai{color:#9A7422; background:rgba(200,155,60,0.16);}
+  .cert-meta{font-size:13px; color:var(--slate); margin:-4px 0 12px;}
+  .cert-meta strong{color:var(--teal);}
   .project-card h3{font-size:17px; margin:0 0 10px;}
   .project-card p{font-size:14px; color:#4A4232; flex:1; margin:0 0 18px;}
   .project-link{font-size:13px; font-weight:700; color:var(--ink); text-decoration:none; border-bottom:1px solid var(--gold);}
@@ -172,6 +176,7 @@
       <a href="#skills">Compétences</a>
       <a href="#experience">Expérience</a>
       <a href="#projects">Projets</a>
+      <a href="#certifications">Certifications</a>
     </nav>
     <a href="#contact" class="nav-cta">Me contacter</a>
     <button id="menu-btn" aria-label="Ouvrir le menu">☰</button>
@@ -372,6 +377,70 @@
         <h3>Agent My PDA</h3>
         <p>Agent IA no-code pour automatiser des tâches d’analyse récurrentes (collecte, nettoyage, restitution)</p>
       </div>
+    </div>
+  </div>
+</section>
+
+<section id="certifications" style="background:var(--paper-2);">
+  <div class="section-inner">
+    <div class="section-head">
+      <div class="eyebrow-light">Formation continue</div>
+      <h2>Certifications.</h2>
+    </div>
+    <div class="project-grid">
+
+      <div class="project-card">
+        <span class="project-tag">Data</span>
+        <h3>Data Preparation</h3>
+        <div class="cert-meta"><strong>DataCamp</strong> · Février 2026</div>
+        <p>Certification validant la préparation et le nettoyage de données en vue de leur analyse.</p>
+        <a href="https://www.datacamp.com/skill-verification/CPE0283565230991" class="project-link" target="_blank" rel="noopener">Voir le certificat →</a>
+      </div>
+
+      <div class="project-card">
+        <span class="project-tag">Data</span>
+        <h3>SQL</h3>
+        <div class="cert-meta"><strong>LIORA</strong> · Juin 2026</div>
+        <p>Certification validant la maîtrise des requêtes SQL pour interroger et exploiter une base de données.</p>
+        <a href="https://files.datascientest.com/certification/b86c8982-385d-475c-899d-b03ee8df730e.pdf" class="project-link" target="_blank" rel="noopener">Voir le certificat →</a>
+      </div>
+
+      <div class="project-card">
+        <span class="project-tag ai">IA</span>
+        <h3>Claude 101</h3>
+        <div class="cert-meta"><strong>Anthropic</strong> · Novembre 2026</div>
+        <p>Fondamentaux de l'utilisation de Claude pour le travail quotidien.</p>
+        <a href="https://academy.claude.com/verify/7b68dbf88b25b0cd23811e2881575cc9" class="project-link" target="_blank" rel="noopener">Voir le certificat →</a>
+      </div>
+
+      <div class="project-card">
+        <span class="project-tag ai">IA · Automatisation</span>
+        <h3>Gumloop Agents 101</h3>
+        <div class="cert-meta"><strong>Gumloop</strong> · Janvier 2026</div>
+        <p>Conception d'agents IA avec Gumloop.</p>
+      </div>
+
+      <div class="project-card">
+        <span class="project-tag ai">IA · Automatisation</span>
+        <h3>Gumloop Flows 101</h3>
+        <div class="cert-meta"><strong>Gumloop</strong> · Janvier 2026</div>
+        <p>Création de workflows automatisés avec Gumloop.</p>
+      </div>
+
+      <div class="project-card">
+        <span class="project-tag ai">IA</span>
+        <h3>Alteryx Academy : AI Essentials</h3>
+        <div class="cert-meta"><strong>Alteryx</strong> · Novembre 2026</div>
+        <p>Fondamentaux de l'IA appliqués à l'analyse de données.</p>
+      </div>
+
+      <div class="project-card">
+        <span class="project-tag ai">IA</span>
+        <h3>Alteryx Academy : Prompt Engineering Best Practices</h3>
+        <div class="cert-meta"><strong>Alteryx</strong> · Novembre 2026</div>
+        <p>Bonnes pratiques pour rédiger des prompts efficaces.</p>
+      </div>
+
     </div>
   </div>
 </section>
