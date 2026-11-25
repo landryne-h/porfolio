@@ -1,6 +1,6 @@
 # Score de propension au don : qui va donner cette année ?
 
-> Projet de scoring prédictif réalisé en Python dans le cadre de mon MSc Manager en Data Marketing (INSEEC).
+> Projet de scoring prédictif réalisé en Python
 > Objectif : aider une grande association à cibler ses sollicitations en prédisant, pour chacun de ses 73 124 contacts, la probabilité de faire au moins un don sur l'année.
 
 ![Python](https://img.shields.io/badge/Python-3-blue) ![pandas](https://img.shields.io/badge/pandas-preparation-150458) ![scikit--learn](https://img.shields.io/badge/scikit--learn-modelisation-F7931E) ![statsmodels](https://img.shields.io/badge/statsmodels-regression%20logistique-4051B5) ![Claude](https://img.shields.io/badge/Claude-assistance%20IA-D97757)
@@ -82,7 +82,3 @@ Pour relancer l'analyse : `pip install -r requirements.txt`, puis exécuter le n
 - **Statistiques** : WoE / IV, khi-carré, V de Cramér, analyse de corrélations
 - **Marketing et CRM** : segmentation, ciblage de campagnes, optimisation de la pression marketing
 - **Communication** : traduction de résultats techniques en recommandations actionnables pour un public métier
-
----
-
-**Landryne HOUEHOU** · MSc 2 Manager en Data Marketing, INSEEC · Recherche d'alternance en data / IA / performance marketing (rythme 3 semaines entreprise / 1 semaine école)
