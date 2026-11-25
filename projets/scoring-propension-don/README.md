@@ -3,7 +3,7 @@
 > Projet de scoring prédictif réalisé en Python dans le cadre de mon MSc Manager en Data Marketing (INSEEC).
 > Objectif : aider une grande association à cibler ses sollicitations en prédisant, pour chacun de ses 73 124 contacts, la probabilité de faire au moins un don sur l'année.
 
-![Python](https://img.shields.io/badge/Python-3-blue) ![pandas](https://img.shields.io/badge/pandas-preparation-150458) ![scikit--learn](https://img.shields.io/badge/scikit--learn-modelisation-F7931E) ![statsmodels](https://img.shields.io/badge/statsmodels-regression%20logistique-4051B5)
+![Python](https://img.shields.io/badge/Python-3-blue) ![pandas](https://img.shields.io/badge/pandas-preparation-150458) ![scikit--learn](https://img.shields.io/badge/scikit--learn-modelisation-F7931E) ![statsmodels](https://img.shields.io/badge/statsmodels-regression%20logistique-4051B5) ![Claude](https://img.shields.io/badge/Claude-assistance%20IA-D97757)
 
 ## En bref
 
@@ -12,6 +12,7 @@
 | **Question métier** | Quelle est la probabilité qu'un contact fasse au moins un don l'année N ? |
 | **Données** | 73 124 contacts anonymisés, 42 colonnes (12 ans d'historique de dons, canaux, moyens de paiement, profil) |
 | **Méthode** | Discrétisation optimale (WoE / IV) puis régression logistique |
+| **Outils** | Python (pandas, optbinning, statsmodels, scikit-learn), Claude en assistance IA |
 | **Performance (test)** | **AUC 0,925**, Gini 0,851, KS 0,73 |
 | **Impact** | Contacter 30 % de la base suffit pour toucher **84 % des donateurs** |
 
